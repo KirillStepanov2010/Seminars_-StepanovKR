@@ -41,16 +41,25 @@
 ### 2. Установка зависимостей и запуск проекта
 
 1. **Клонируйте репозиторий**:
-   git clone
+
+- git clone https://github.com/KirillStepanov2010/Seminars_-StepanovKR.git
+
 2. **Установите зависимости для сервера**:
-   cd server
-   npm install
+
+- cd server
+- npm install
+
 3. **Установите зависимости для клиента**:
-   cd ../client
-   npm start
+
+- cd ../client
+- npm start
+
 4. **Запустите клиент**:
-   cd client
-   npm run dev
+
+- cd client
+- npm run dev
+
 5. **Запустите сервер**:
-   cd server
-   npm run dev
+
+- cd server
+- npm run dev
