@@ -19,4 +19,13 @@ async function startApp() {
     console.log(e)
   }
 }
+
+const gracefulShutdown = async () => {
+  await mongoose.connection.close()
+  console.log("Подключение к MongoDB закрыто")
+  process.exit(0)
+}
+
+process.on("SIGINT", gracefulShutdown)
+
 startApp()
